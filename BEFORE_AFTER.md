@@ -2,6 +2,15 @@
 
 ## 📊 Vue d'ensemble
 
+### AVANT
+```jsx
+import projectHR from '../assets/images/project-hr.webp';
+import projectStock from '../assets/images/project-stock.webp';
+// ... 3 autres images
+
+const ProjectCard = ({ image, ... }) => (
+  <img src={image} alt={title} className="..." />
+)
 
 projectsData = [
   { image: projectHR, ... }
