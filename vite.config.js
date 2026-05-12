@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/portfolio/',
   plugins: [react()],
   build: {
     // Cible les navigateurs modernes → moins de polyfills
@@ -18,11 +19,11 @@ export default defineConfig({
       output: {
         manualChunks: {
           // React ecosystem (chargé AVEC Home, car Home n'est plus lazy)
-          'react-core':    ['react', 'react-dom', 'react-router-dom'],
+          'react-core': ['react', 'react-dom', 'react-router-dom'],
           // Framer Motion isolé → lazy loadé avec les pages secondaires
           'framer-motion': ['framer-motion'],
           // react-helmet → utilisé uniquement dans les pages
-          'helmet':        ['react-helmet-async'],
+          'helmet': ['react-helmet-async'],
         },
       },
     },
