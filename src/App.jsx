@@ -9,7 +9,7 @@ import ScrollToTop from './components/utils/ScrollToTop';
 // Home chargée immédiatement
 import Home from './pages/Home';
 
-// Pages lazy-loadées
+// Pages lazy-loadées : optimisation : charger uniquement pages nécessaires pour ameliore le vitesse qui augmente la perfermance  
 const About = lazy(() => import('./pages/About'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Skills = lazy(() => import('./pages/Skills'));
@@ -31,7 +31,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <Router basename="/portfolio">
+    <Router >
       <ScrollToTop />
 
       <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-dark-bg text-gray-900 dark:text-dark-text">
@@ -46,7 +46,7 @@ function App() {
         <Navbar darkMode={darkMode} toggleDarkMode={() => setDarkMode(d => !d)} />
 
         <main className="flex-grow">
-          <Suspense fallback={<PageLoader />}>
+          <Suspense fallback={<PageLoader />}> {/* optimisation de UX ou le temps percus est reduit     */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
@@ -64,4 +64,5 @@ function App() {
     </Router>
   );
 }
+// ici on a deja fait des routes propore lisible pour  une meilleur indexation de google 
 export default App;
