@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased selection:bg-primary-500 selection:text-white;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 dark:bg-dark-card/70 backdrop-blur-md border border-white/20 dark:border-white/10;
+  }
+
+  .glass-card {
+    @apply bg-white/80 dark:bg-dark-card/80 backdrop-blur-lg border border-gray-200 dark:border-gray-800 shadow-xl;
+  }
+
+  .article-content h2 {
+    @apply text-2xl font-semibold text-gray-900 dark:text-white mt-10 mb-4;
+  }
+
+  .article-content p {
+    @apply text-base leading-8 text-gray-700 dark:text-gray-300;
+  }
+
+  .article-content ul {
+    @apply list-disc list-inside space-y-3 ml-5 text-gray-700 dark:text-gray-300;
+  }
+
+  .article-content li {
+    @apply leading-8;
+  }
+
+  .article-content strong {
+    @apply font-semibold text-gray-900 dark:text-white;
+  }
+
+  .article-content img {
+    @apply rounded-3xl border border-gray-200 dark:border-gray-700 shadow-sm;
+  }
+
+  /* Performance optimizations */
+  .animate-on-scroll {
+    will-change: transform, opacity;
+    contain: layout style paint;
+  }
+
+  .optimized-image {
+    will-change: transform;
+    contain: layout style paint;
+  }
+
+  /* Framer Motion optimizations */
+  .motion-safe {
+    will-change: transform;
+  }
+
+  .motion-safe:hover {
+    will-change: transform, opacity;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-600;
+}
