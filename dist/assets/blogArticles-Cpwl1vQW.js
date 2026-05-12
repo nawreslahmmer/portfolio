@@ -1,4 +1,4 @@
-import{c as i}from"./index-BEg4wYG7.js";const d=i("Clock",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["polyline",{points:"12 6 12 12 16 14",key:"68esgv"}]]),s="/portfolio/assets/article-stock-EOe_DH2E.webp",o="/portfolio/assets/article-recruitment-RIP6vU81.webp",r="/portfolio/assets/article-fabric-DQHVLZSg.webp",n="/portfolio/assets/article-snowflake-BU1tRKuO.webp",l="/portfolio/assets/logo-fabric-BXHri6hP.webp",a="/portfolio/assets/logo-fabric-BXHri6hP.webp",c=[{id:1,title:"Optimisation de la Gestion des Stocks chez CMR Group : Une Approche Intégrée BI et Prédictive",excerpt:"Découvrez comment j'ai conçu un système complet d'optimisation des stocks en combinant SSIS, SQL Server, Power BI et Machine Learning.",date:"15 décembre 2024",readTime:"15 min lecture",category:"Business Intelligence",color:"from-blue-400 to-indigo-500",image:s,content:`
+import{c as i}from"./index-Csx-sVpA.js";const d=i("Clock",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["polyline",{points:"12 6 12 12 16 14",key:"68esgv"}]]),s=""+new URL("article-stock-EOe_DH2E.webp",import.meta.url).href,r=""+new URL("article-recruitment-RIP6vU81.webp",import.meta.url).href,n=""+new URL("article-fabric-DQHVLZSg.webp",import.meta.url).href,o=""+new URL("article-snowflake-BU1tRKuO.webp",import.meta.url).href,l=""+new URL("logo-fabric-BXHri6hP.webp",import.meta.url).href,a=""+new URL("logo-fabric-BXHri6hP.webp",import.meta.url).href,u=[{id:1,title:"Optimisation de la Gestion des Stocks chez CMR Group : Une Approche Intégrée BI et Prédictive",excerpt:"Découvrez comment j'ai conçu un système complet d'optimisation des stocks en combinant SSIS, SQL Server, Power BI et Machine Learning.",date:"15 décembre 2024",readTime:"15 min lecture",category:"Business Intelligence",color:"from-blue-400 to-indigo-500",image:s,content:`
     <h2>Contexte du projet</h2>
     <p>Lors de mon stage chez CMR Group Tunisie, j'ai développé une solution data-driven pour optimiser la gestion des stocks, réduire les coûts et améliorer la disponibilité produit.</p>
 
@@ -31,7 +31,7 @@ import{c as i}from"./index-BEg4wYG7.js";const d=i("Clock",[["circle",{cx:"12",cy
 
     <h2>Valeur métier</h2>
     <p>Cette réalisation a permis de transformer des données disparates en décisions opérationnelles, en offrant une visibilité claire sur les niveaux de stock et les besoins futurs.</p>
-    `},{id:2,title:"Conception d'un Tableau de Bord Power BI pour le Suivi des Recrutements",excerpt:"Guide complet sur la création d'un dashboard RH professionnel avec Power BI, Power Query et modélisation en étoile.",date:"8 décembre 2024",readTime:"12 min lecture",category:"Power BI",color:"from-emerald-400 to-teal-500",image:o,content:`
+    `},{id:2,title:"Conception d'un Tableau de Bord Power BI pour le Suivi des Recrutements",excerpt:"Guide complet sur la création d'un dashboard RH professionnel avec Power BI, Power Query et modélisation en étoile.",date:"8 décembre 2024",readTime:"12 min lecture",category:"Power BI",color:"from-emerald-400 to-teal-500",image:r,content:`
     <h2>Vue d'ensemble</h2>
     <p>Un dashboard RH bien conçu facilite le pilotage des recrutements et la mesure des performances du processus de sélection.</p>
 
@@ -61,7 +61,7 @@ import{c as i}from"./index-BEg4wYG7.js";const d=i("Clock",[["circle",{cx:"12",cy
 
     <h2>Résultats</h2>
     <p>Le tableau de bord a amélioré la visibilité des recrutements, réduit les délais de prise de décision et renforcé l'efficacité des équipes RH.</p>
-    `},{id:3,title:"Implémenter un Lakehouse avec Microsoft Fabric",excerpt:"Architecture moderne et unifiée pour l'analytics. Découvrez OneLake, les Dataflows et la puissance du Direct Lake.",date:"Mai 2026",readTime:"14 min lecture",category:"Data Engineering",color:"from-purple-400 to-pink-500",image:r,logo:l,content:`
+    `},{id:3,title:"Implémenter un Lakehouse avec Microsoft Fabric",excerpt:"Architecture moderne et unifiée pour l'analytics. Découvrez OneLake, les Dataflows et la puissance du Direct Lake.",date:"Mai 2026",readTime:"14 min lecture",category:"Data Engineering",color:"from-purple-400 to-pink-500",image:n,logo:l,content:`
     <h2>Présentation de Microsoft Fabric</h2>
     <p>Microsoft Fabric est une plateforme unifiée pour l'analytics, la BI, le data engineering et la data science. Elle permet de piloter un Lakehouse moderne avec une gouvernance centralisée.</p>
 
@@ -98,7 +98,7 @@ import{c as i}from"./index-BEg4wYG7.js";const d=i("Clock",[["circle",{cx:"12",cy
       <li>Surveillez les performances avec des logs et des métriques.</li>
       <li>Appliquez une gouvernance stricte pour les accès aux données.</li>
     </ul>
-    `},{id:4,title:"Snowflake : L'Architecture Révolutionnaire de l'Entrepôt de Données Cloud",excerpt:"Explorez l'architecture cloud-native qui redéfinit les data warehouses. Séparation stockage/calcul, Virtual Warehouses et Time Travel.",date:"Mai 2026",readTime:"13 min lecture",category:"Cloud Data Warehouse",color:"from-cyan-400 to-blue-500",image:n,logo:a,content:`
+    `},{id:4,title:"Snowflake : L'Architecture Révolutionnaire de l'Entrepôt de Données Cloud",excerpt:"Explorez l'architecture cloud-native qui redéfinit les data warehouses. Séparation stockage/calcul, Virtual Warehouses et Time Travel.",date:"Mai 2026",readTime:"13 min lecture",category:"Cloud Data Warehouse",color:"from-cyan-400 to-blue-500",image:o,logo:a,content:`
     <h2>Pourquoi Snowflake?</h2>
     <p>Snowflake propose une architecture cloud-native qui sépare stockage et calcul, permettant une flexibilité optimale et une facturation à l'usage.</p>
 
@@ -132,4 +132,4 @@ import{c as i}from"./index-BEg4wYG7.js";const d=i("Clock",[["circle",{cx:"12",cy
       <li>Surveillez l'utilisation des crédits et les charges des warehouses.</li>
       <li>Privilégiez les vues sécurisées pour les données sensibles.</li>
     </ul>
-    `}],p=e=>c.find(t=>t.id===parseInt(e));export{d as C,c as b,p as g};
+    `}],p=e=>u.find(t=>t.id===parseInt(e));export{d as C,u as b,p as g};
